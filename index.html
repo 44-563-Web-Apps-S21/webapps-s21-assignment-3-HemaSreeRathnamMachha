@@ -98,5 +98,21 @@
                 <td>10000 INR</td>
             </tr>
           </table>
+          <hr>
+          <h3>
+            Code display
+          </h3>
+          <blockquote>
+            SPARK is a formally defined computer programming language based on the Ada programming language, intended for the development of high integrity software used in systems where predictable and highly reliable operation is essential. It facilitates the development of applications that demand safety, security, or business integrity.
+          </blockquote>
+          <a href="https://en.wikipedia.org/wiki/SPARK_(programming_language)">Description of language </a>
+          <pre>
+            import org.apache.spark.sql.SparkSession
+            val spark:SparkSession = SparkSession.builder()
+                    .master("local[1]")
+                    .appName("SparkByExamples.com")
+                    .getOrCreate()
+          </pre>
+          <a href="https://sparkbyexamples.com/">Spark Code</a>
     </body>
 </html>
